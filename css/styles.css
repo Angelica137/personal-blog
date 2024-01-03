@@ -6,14 +6,12 @@
 	grid-template-areas:
 	"hd hd hd hd hd hd hd hd hd hd hd hd"
 	"sd sd sd sd main main main main main main main main";
-	border: 2px solid yellow
 }
 
 .header {
 	grid-area: hd;
 	display: flex;
 	justify-content: space-between;
-	border: 2px solid red
 }
 
 .header .title-large {
@@ -31,9 +29,26 @@
 	font-weight: 800;
 }
 
+.social-media {
+	margin: 8px;
+	fill: #F97068;
+	transition: fill 0.3 ease;
+}
+
+.social-links {
+  display: flex;
+	justify-content: flex-end;
+	padding: 24px;
+	list-style: none;
+	margin: 0;
+}
+
+.socil-links li {
+	margin-right: 8px;
+}
+
 .side-content {
 	grid-area: sd;
-	border: 2px solid red
 }
 
 ul{
@@ -94,5 +109,4 @@ ul{
 
 .main-content {
 	grid-area: main;
-	border: 2px solid red
 }
