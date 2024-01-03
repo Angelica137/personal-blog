@@ -18,6 +18,9 @@
 
 .header .title-large {
 	grid-column: 1 / span 3;
+	font-family: Bitter;
+	font-size: 100px;
+	font-weight: 700;
 }
 
 /* I am not sure I need this
