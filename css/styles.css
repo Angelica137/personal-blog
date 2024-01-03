@@ -50,14 +50,22 @@ ul{
 
 .side-content li {
 	list-style: none;
-	width: 100%;
-	height: 100%;
+	padding-bottom: 40px;
 }
 
 .card-small-container {
 	position: relative;
 	grid-area: sd;
-	height: 112px;
+	height: 200px;
+	margin-top: 8px;
+	margin-left: 8px;
+
+}
+
+.card-large-container {
+	position: relative;
+	grid-area: sd;
+	height: 400px;
 	margin-top: 8px;
 	margin-left: 8px;
 
