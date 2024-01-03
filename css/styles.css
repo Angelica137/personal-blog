@@ -12,6 +12,8 @@
 	grid-area: hd;
 	display: flex;
 	justify-content: space-between;
+	height: 200px;
+	align-items: center;
 }
 
 .header .title-large {
@@ -27,6 +29,7 @@
 	font-family: Avenir;
 	font-size: 24px;
 	font-weight: 800;
+	margin-right: 8px;
 }
 
 .social-media {
@@ -38,7 +41,6 @@
 .social-links {
   display: flex;
 	justify-content: flex-end;
-	padding: 24px;
 	list-style: none;
 	margin: 0;
 }
