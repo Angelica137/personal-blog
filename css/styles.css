@@ -2,7 +2,7 @@
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	grid-gap: 24px;
-	margin: 16px;
+	padding: 16px;
 	grid-template-areas:
 	"hd hd hd hd hd hd hd hd hd hd hd hd"
 	"sd sd sd sd main main main main main main main main";
@@ -41,19 +41,34 @@ ul{
 	list-style:none
 }
 
+.side-content ul {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.side-content li {
+	list-style: none;
+	width: 100%;
+	height: 100%;
+}
+
 .card-small-container {
 	position: relative;
-	grid-column: 2 /span 3;
+	grid-area: sd;
 	height: 112px;
-	margin-right: 60px;
+	margin-top: 8px;
+	margin-left: 8px;
+
 }
 
 .card-small {
 	border: 1px solid black;
 	background-color: white;
 	padding: 16px;
-	width: 100%;
-	height: 100%;
+	width: calc(100% - 32px);
+	height: calc(100% - 16px);
 	position: absolute;
 }
 
@@ -69,6 +84,7 @@ ul{
 	background-color: white;
 	border-radius: 4px;
 }
+
 .main-content {
 	grid-area: main;
 	border: 2px solid red
