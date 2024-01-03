@@ -118,3 +118,23 @@ ul{
 .main-content {
 	grid-area: main;
 }
+
+h3 {
+	font-family: Avenir;
+	font-size: 20px;
+}
+
+.sub-head {
+	font-family: Zilla Slab;
+	font-size: 18px;
+}
+
+.project-title-large {
+	font-family: Avenir;
+	font-size: 24px;
+}
+
+.sub-head-large {
+	font-family: Zilla Slab;
+	font-size: 20px;
+}
