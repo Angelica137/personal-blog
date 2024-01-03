@@ -2,21 +2,24 @@
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	grid-gap: 24px;
+	margin: 16px;
 	grid-template-areas:
-	"hd" "hd" "hd" "hd" "hd" "hd" "hd" "hd" "hd" "hd" "hd" "hd"
-	"sd" "sd" "sd" "sd"
-	"main" "main" "main" "main" "main" "main" "main" "main" "main";
+	"hd hd hd hd hd hd hd hd hd hd hd hd"
+	"sd sd sd sd main main main main main main main main";
 	border: 2px solid yellow
 }
 
 .header {
 	grid-area: hd;
+	border: 2px solid red
 }
 
 .side-content {
 	grid-area: sd;
+	border: 2px solid red
 }
 
 .main-content {
 	grid-area: main;
+	border: 2px solid red
 }
