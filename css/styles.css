@@ -11,6 +11,8 @@
 
 .header {
 	grid-area: hd;
+	display: flex;
+	justify-content: space-between;
 	border: 2px solid red
 }
 
@@ -18,11 +20,55 @@
 	grid-column: 1 / span 3;
 }
 
+/* I am not sure I need this
+.right-content{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+*/
+
+.header .title-small {
+	grid-column: -1 /span 2;
+}
+
 .side-content {
 	grid-area: sd;
 	border: 2px solid red
 }
 
+ul{
+	list-style:none
+}
+
+.card-small-container {
+	position: relative;
+	grid-column: 2 /span 3;
+	height: 112px;
+	margin-right: 60px;
+}
+
+.card-small {
+	border: 1px solid black;
+	background-color: white;
+	padding: 16px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.top-card {
+	z-index: 1;
+	top: -8px;
+	left: -8px;
+	border-radius: 4px;
+}
+
+.bottom-card{
+	border: 1px solid black;
+	background-color: white;
+	border-radius: 4px;
+}
 .main-content {
 	grid-area: main;
 	border: 2px solid red
