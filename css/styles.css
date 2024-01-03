@@ -1,0 +1,22 @@
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-gap: 24px;
+	grid-template-areas:
+	"hd" "hd" "hd" "hd" "hd" "hd" "hd" "hd" "hd" "hd" "hd" "hd"
+	"sd" "sd" "sd" "sd"
+	"main" "main" "main" "main" "main" "main" "main" "main" "main";
+	border: 2px solid yellow
+}
+
+.header {
+	grid-area: hd;
+}
+
+.side-content {
+	grid-area: sd;
+}
+
+.main-content {
+	grid-area: main;
+}
