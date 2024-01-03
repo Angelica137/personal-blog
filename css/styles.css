@@ -14,6 +14,10 @@
 	border: 2px solid red
 }
 
+.header .title-large {
+	grid-column: 1 / span 3;
+}
+
 .side-content {
 	grid-area: sd;
 	border: 2px solid red
