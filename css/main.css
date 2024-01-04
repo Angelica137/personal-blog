@@ -1,15 +1,7 @@
 @import url("./social.css");
+@import url("./layout.css");
 
 
-.grid-container {
-	display: grid;
-	grid-template-columns: repeat(12, 1fr);
-	grid-gap: 24px;
-	padding: 16px;
-	grid-template-areas:
-	"hd hd hd hd hd hd hd hd hd hd hd hd"
-	"sd sd sd sd main main main main main main main main";
-}
 
 body {
 	background-color: #16192B;
@@ -29,7 +21,6 @@ body {
 	font-size: 100px;
 	font-weight: 700;
 	color: #0272DF;
-	/*font-style: italic;*/
 }
 
 .header .title-small {

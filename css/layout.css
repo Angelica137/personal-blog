@@ -1,0 +1,9 @@
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-gap: 24px;
+	padding: 16px;
+	grid-template-areas:
+	"hd hd hd hd hd hd hd hd hd hd hd hd"
+	"sd sd sd sd main main main main main main main main";
+}
