@@ -1,4 +1,7 @@
 .icon-button {
   background-color: #F4C749;
-	border: 1px solid black
+	border: 2px solid black;
+	border-radius: 100px;
+	width: 40px;
+	height:40px;
 }
