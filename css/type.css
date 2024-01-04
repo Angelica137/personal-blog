@@ -9,10 +9,10 @@
 .header .title-small {
 	grid-column: -1 /span 2;
 	font-family: Avenir;
-	font-size: 24px;
+	font-size: 22px;
 	font-weight: 800;
-	margin-right: 8px;
-	color: #4860A6;
+	margin: 4px;
+	color: #0272DF;
 }
 
 .header .title-article {
