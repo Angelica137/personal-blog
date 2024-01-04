@@ -1,33 +1,10 @@
 @import url("./social.css");
 @import url("./layout.css");
+@import url("./type.css");
 
 
 body {
 	background-color: #16192B;
-}
-
-.header .title-large {
-	grid-column: 1 / span 3;
-	font-family: Bitter;
-	font-size: 100px;
-	font-weight: 700;
-	color: #0272DF;
-}
-
-.header .title-small {
-	grid-column: -1 /span 2;
-	font-family: Avenir;
-	font-size: 24px;
-	font-weight: 800;
-	margin-right: 8px;
-	color: #4860A6;
-}
-
-.header .title-article {
-	font-family: Bitter;
-	font-size: 100px;
-	font-weight: 700;
-	color: #0272DF;
 }
 
 ul{
@@ -82,22 +59,7 @@ ul{
 	border-radius: 4px;
 }
 
-h3 {
-	font-family: Avenir;
-	font-size: 20px;
-}
-
 .sub-head {
 	font-family: Zilla Slab;
 	font-size: 18px;
-}
-
-.project-title-large {
-	font-family: Avenir;
-	font-size: 24px;
-}
-
-.sub-head-large {
-	font-family: Zilla Slab;
-	font-size: 20px;
 }
