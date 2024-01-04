@@ -2,17 +2,8 @@
 @import url("./layout.css");
 
 
-
 body {
 	background-color: #16192B;
-}
-
-.header {
-	grid-area: hd;
-	display: flex;
-	justify-content: space-between;
-	height: 200px;
-	align-items: center;
 }
 
 .header .title-large {
@@ -32,8 +23,11 @@ body {
 	color: #4860A6;
 }
 
-.side-content {
-	grid-area: sd;
+.header .title-article {
+	font-family: Bitter;
+	font-size: 100px;
+	font-weight: 700;
+	color: #0272DF;
 }
 
 ul{
@@ -52,22 +46,6 @@ ul{
 	padding-bottom: 40px;
 }
 
-.card-small-container {
-	position: relative;
-	grid-area: sd;
-	height: 200px;
-	margin-top: 8px;
-	margin-left: 8px;
-}
-
-.card-large-container {
-	position: relative;
-	grid-area: sd;
-	height: 400px;
-	margin-top: 8px;
-	margin-left: 8px;
-}
-
 .card {
 	border: 2px solid black;
 	background-color: #caeff5;
@@ -75,6 +53,20 @@ ul{
 	width: calc(100% - 32px);
 	height: calc(100% - 16px);
 	position: absolute;
+}
+
+.card-small-container {
+	position: relative;
+	height: 200px;
+	margin-top: 8px;
+	margin-left: 8px;
+}
+
+.card-large-container {
+	position: relative;
+	height: 400px;
+	margin-top: 8px;
+	margin-left: 8px;
 }
 
 .top-card {
@@ -88,10 +80,6 @@ ul{
 	border: 1px solid black;
 	background-color: #F14D9B;
 	border-radius: 4px;
-}
-
-.main-content {
-	grid-area: main;
 }
 
 h3 {
