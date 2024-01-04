@@ -1,3 +1,6 @@
+@import url("./social.css");
+
+
 .grid-container {
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
@@ -89,7 +92,6 @@ ul{
 	height: 400px;
 	margin-top: 8px;
 	margin-left: 8px;
-
 }
 
 .card {
