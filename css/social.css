@@ -1,0 +1,16 @@
+.social-media {
+	margin: 8px;
+	fill: #F97068;
+	transition: fill 0.3 ease;
+}
+
+.social-links {
+  display: flex;
+	justify-content: flex-end;
+	list-style: none;
+	margin: 0;
+}
+
+.socil-links li {
+	margin-right: 8px;
+}
