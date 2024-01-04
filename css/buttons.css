@@ -4,4 +4,10 @@
 	border-radius: 100px;
 	width: 40px;
 	height:40px;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.icon-button:hover {
+  transform: translatey(-5px) translateX(5px);
+	box-shadow: -2px 2px 0 0 #000;
 }
