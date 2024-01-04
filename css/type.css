@@ -15,6 +15,13 @@
 	color: #0272DF;
 }
 
+.nav-link {
+	padding-left: 0px;
+	padding-right: 16px;
+	font-family: Avenir;
+	color: red;
+}
+
 .header .title-article {
 	font-family: Bitter;
 	font-size: 100px;

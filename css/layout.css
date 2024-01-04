@@ -5,6 +5,7 @@
 	padding: 16px;
 	grid-template-areas:
 	"hd hd hd hd hd hd hd hd hd hd hd hd"
+	"nav nav nav nav nav nav nav nav nav nav nav nav"
 	"sd sd sd sd main main main main main main main main";
 }
 
@@ -15,6 +16,7 @@
 	padding: 16px;
 	grid-template-areas:
 	"hd hd hd hd hd hd hd hd hd hd hd hd"
+	"nav nav nav nav nav nav nav nav nav nav nav nav"
 	"main main main main main main main main main main main main";
 }
 
@@ -24,6 +26,18 @@
 	justify-content: space-between;
 	height: 200px;
 	align-items: center;
+}
+
+.navigation {
+	grid-area: nav;
+	display: flex;
+	height: 40px;
+	align-items: center;
+}
+
+.top-nav{
+	display: flex;
+	padding: 0;
 }
 
 .side-content {
