@@ -51,6 +51,13 @@ h3 {
 	font-size: 20px;
 }
 
+.blockquote-text {
+	color: #0272DF;
+	font-family: Avenir;
+	font-weight: 800;
+	font-size: 40px;
+}
+
 .footer-text {
 	font-family: Avenir;
 	color: red;

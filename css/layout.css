@@ -6,7 +6,8 @@
 	grid-template-areas:
 	"hd hd hd hd hd hd hd hd hd hd hd hd"
 	"nav nav nav nav nav nav nav nav nav nav nav nav"
-	"sd sd sd sd main main main main main main main main";
+	"sd sd sd sd main main main main main main main main"
+	"q q q q q q q q q q q q";
 }
 
 .grid-container-article {
@@ -46,6 +47,17 @@
 
 .main-content {
 	grid-area: main;
+}
+
+.quote {
+	grid-area: q;
+	display: flex;
+	padding: 36px;
+	text-align: center;
+	margin-top: auto;
+	background: #0DD18D;
+	border: 2px solid black;
+	border-radius: 8px;
 }
 
 .footer {
