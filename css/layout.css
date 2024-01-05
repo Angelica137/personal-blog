@@ -52,7 +52,10 @@
 .quote {
 	grid-area: q;
 	display: flex;
+	flex-direction: column;
 	padding: 36px;
+	align-items: center;
+	justify-content: center;
 	text-align: center;
 	margin-top: auto;
 	background: #0DD18D;
