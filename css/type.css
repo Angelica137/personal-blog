@@ -32,11 +32,13 @@
 h3 {
 	font-family: Avenir;
 	font-size: 20px;
+	margin: 8px;
 }
 
 .project-title-large {
 	font-family: Avenir;
 	font-size: 24px;
+	margin: 8px;
 }
 
 .article-subheader {
