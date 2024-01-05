@@ -51,6 +51,16 @@ h3 {
 	font-size: 20px;
 }
 
+figcaption {
+  position: absolute; /* Position the caption absolutely */
+  bottom: 0; /* Align it to the bottom */
+  left: 0; /* Align it to the left */
+  width: 100%; /* Let it span the entire width of the container */
+  font-family: Avenir;
+  font-size: 14px;
+  padding: 24px;
+}
+
 .blockquote-text {
 	color: #0272DF;
 	font-family: Avenir;

@@ -26,9 +26,13 @@
 .card-large-img {
 	display: block;
 	width: auto;
-	max-height: calc(100% - 40px - 32px);
+	max-height: calc(100% - 50px - 80px);
 	object-fit: cover;
 	margin: auto;
+}
+
+figure {
+	margin: 0;
 }
 
 .top-card {
