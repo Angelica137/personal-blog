@@ -23,8 +23,8 @@
 
 .card-large-img {
 	display: block;
-	width: 50%;
-	height: 50%;
+	width: auto;
+	max-height: 100%;
 	object-fit: cover;
 	margin: auto;
 	margin-bottom: 24px;
