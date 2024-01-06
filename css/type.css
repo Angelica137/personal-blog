@@ -30,6 +30,12 @@
 	margin-bottom: 0;
 }
 
+.card-sub-head {
+	font-family: Zilla Slab;
+	font-size: 20px;
+	margin: 8px;
+}
+
 h3 {
 	font-family: Avenir;
 	font-size: 20px;
