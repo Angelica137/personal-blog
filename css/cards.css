@@ -57,11 +57,11 @@ figure {
 
 .card-avatar-container {
 	position: relative;
-	height: auto;
 	margin-top: 8px;
 	margin-left: 8px;
 	text-align: center;
 	padding-bottom: 20px;
+	height: auto;
 }
 
 .avatar {
