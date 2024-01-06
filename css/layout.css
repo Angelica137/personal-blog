@@ -45,6 +45,10 @@
 	grid-area: sd;
 }
 
+.author {
+	grid-area: auth;
+}
+
 .main-content {
 	grid-area: main;
 }
