@@ -17,27 +17,25 @@
         <li><img src="../assets/logos/FB.svg" class="social-media" /></li>
         <li><img src="../assets/logos/LinkedIn.svg" class="social-media" /></li>
       </ul>
-      <div class="author">
-        <div class="card-avatar-container">
-          <div class="card-avatar top-card">
-            <h3 class="auth-name">Angelica Beristain</h3>
-            <div class="avatar-container">
-              <img src="../assets/Avatar.png" alt="Avatar" class="avatar" />
-            </div>
-            <p class="card-sub-head">Lead UX</p>
-            <p class="card-sub-head">@Elliptic</p>
-            <p class="card-sub-head">
-              Contrary to popular belief, Lorem Ipsum is not simply random text.
-              It has roots in a piece of classical Latin literature from 45 BC,
-              making it over 2000 years old. Richard McClintock, a Latin
-              professor at Hampden-Sydney College in Virginia, looked up one of
-              the more obscure Latin words, consectetur, from a Lorem Ipsum
-              passage, and going through the cites of the word in classical
-              literature, discovered the undo
-            </p>
+      <div class="author card-avatar-container">
+        <div class="card-avatar top-card">
+          <h3 class="auth-name">Angelica Beristain</h3>
+          <div class="avatar-container">
+            <img src="../assets/Avatar.png" alt="Avatar" class="avatar" />
           </div>
-          <div class="card-avatar bottom-card"></div>
+          <p class="card-sub-head">Lead UX</p>
+          <p class="card-sub-head">@Elliptic</p>
+          <p class="card-sub-head">
+            Contrary to popular belief, Lorem Ipsum is not simply random text.
+            It has roots in a piece of classical Latin literature from 45 BC,
+            making it over 2000 years old. Richard McClintock, a Latin professor
+            at Hampden-Sydney College in Virginia, looked up one of the more
+            obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+            going through the cites of the word in classical literature,
+            discovered the undo
+          </p>
         </div>
+        <div class="card-avatar bottom-card"></div>
       </div>
       <div class="main-content card-avatar-container">
         <div class="card top-card">
@@ -76,5 +74,16 @@
     <footer class="grid-container-main footer footer-text">
       Copy right Angelica Beristain 2024
     </footer>
+    <script>
+      window.onload = function () {
+        var topCard = document.querySelector(".card-avatar.top-card");
+        var bottomCard = document.querySelector(".card-avatar.bottom-card");
+
+        if (topCard && bottomCard) {
+          var height = topCard.offsetHeight;
+          bottomCard.style.height = height + "px";
+        }
+      };
+    </script>
   </body>
 </html>
