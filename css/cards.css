@@ -55,19 +55,13 @@ figure {
   right: 16px;
 }
 
-.card-avatar {
+.card-avatar-container {
 	position: relative;
-	/*height: 400px;*/
 	height: auto;
 	margin-top: 8px;
 	margin-left: 8px;
 	text-align: center;
-}
-
-.avatar-container {
-	display: flex;
-	justify-content: center;
-	margin-bottom: 15px; 
+	padding-bottom: 20px;
 }
 
 .avatar {
