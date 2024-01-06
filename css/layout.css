@@ -7,7 +7,8 @@
 	"hd hd hd hd hd hd hd hd hd hd hd hd"
 	"nav nav nav nav nav nav nav nav nav nav nav nav"
 	"sd sd sd sd main main main main main main main main"
-	"q q q q q q q q q q q q";
+	"q q q q q q q q q q q q"
+	"ft ft ft ft ft ft ft ft ft ft ft ft";
 }
 
 .grid-container-article {
@@ -18,7 +19,8 @@
 	grid-template-areas:
 	"hd hd hd hd hd hd hd hd hd hd hd hd"
 	"nav nav nav nav nav nav nav nav nav nav nav nav"
-	"auth auth main main main main main main main main main main";
+	"auth auth main main main main main main main main main main"
+	"ft ft ft ft ft ft ft ft ft ft ft ft";
 }
 
 .header {
@@ -68,11 +70,15 @@
 }
 
 .footer {
+	grid-area: ft;
 	bottom: 0;
 	display: flex;
 	padding: 36px;
 	text-align: center;
 	margin-top: auto;
+	background: rebeccapurple;
+	border: 2px solid black;
+	border-radius: 8px;
 }
 
 
