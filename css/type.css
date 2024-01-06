@@ -19,7 +19,7 @@
 	padding-left: 0px;
 	padding-right: 16px;
 	font-family: Avenir;
-	color: red;
+	color: #fff;
 }
 
 .header .title-article {
@@ -101,5 +101,5 @@ figcaption {
 
 .footer-text {
 	font-family: Avenir;
-	color: red;
+	color: #fff;
 }
