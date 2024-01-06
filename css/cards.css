@@ -60,3 +60,24 @@ figure {
 	bottom: 16px;
   right: 16px;
 }
+
+.card-avatar {
+	position: relative;
+	height: 400px;
+	margin-top: 8px;
+	margin-left: 8px;
+	text-align: center;
+}
+
+.avatar-container {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 15px; 
+}
+
+.avatar {
+	width: 120px;
+  height: 120px;
+	border-radius: 50%;
+	border: 2px solid black;
+}
