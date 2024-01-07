@@ -80,27 +80,3 @@
 	border: 2px solid black;
 	border-radius: 8px;
 }
-
-
-/*This is how you can do a popover if you
-want to push this */
-
-.popover {
-	position: relative;
-	display: inline-block;
-}
-
-.popover-content {
-	display: none;
-	position: absolute;
-	z-index: 1;
-	border: 1px solid #ddd;
-	background-color: white;
-	padding: 5px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	border-radius: 8px;
-}
-
-.popover:hover .popover-content {
-	display: block;
-}
