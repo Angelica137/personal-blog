@@ -21,16 +21,3 @@ body {
 ul{
 	list-style:none
 }
-
-.side-content ul {
-	padding: 0;
-	margin: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.side-content li {
-	list-style: none;
-	padding-bottom: 40px;
-}
-
