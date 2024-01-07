@@ -144,3 +144,12 @@ figure {
 	height: 28px;
 	padding: 8px;
 }
+
+/* small tablet */
+@media(min-width: 500px) and (max-width: 600px) {
+	.card {
+		padding: 16px;
+		width: calc(100% - 32px);
+		height: calc(100% - 16px);
+	}
+}

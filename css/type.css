@@ -78,42 +78,6 @@ figcaption {
   padding: 24px;
 }
 
-@media(min-width: 500px) and (max-width: 600px) {
-	figcaption {
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		width: 100%;
-		font-family: Avenir;
-		font-size: 14px;
-		padding: 24px;
-	}
-}
-
-@media(min-width: 600px) and (max-width: 1023px) {
-	figcaption {
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		width: 100%;
-		font-family: Avenir;
-		font-size: 14px;
-		padding: 24px;
-	}
-}
-
-@media(min-width: 1024px) {
-	figcaption {
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		width: 100%;
-		font-family: Avenir;
-		font-size: 14px;
-		padding: 24px;
-	}
-}
-
 .blockquote-text {
 	color: #0272DF;
 	font-family: Avenir;
@@ -155,6 +119,8 @@ span {
 }
 
 
+/* these look repeatitive but when I delete them
+the styling reverts back to the mobile style */
 /* small tablet */
 @media(min-width: 500px) and (max-width: 600px) {
 	.header .title-large {
@@ -167,11 +133,19 @@ span {
 	.header .title-large {
 		font-size: 100px;
 	}
+
+	figcaption {
+		width: 100%;
+	}
 }
 
 /* Desktop */
 @media(min-width: 1024px) {
 	.header .title-large {
 		font-size: 100px;
+	}
+
+	figcaption {
+		width: 100%;
 	}
 }
