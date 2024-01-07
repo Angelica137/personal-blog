@@ -1,6 +1,8 @@
 .social-media {
 	margin: 8px;
 	fill: #F97068;
+	width: 37px;
+	height: 37px;
 	transition: fill 0.3 ease;
 }
 
