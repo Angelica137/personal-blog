@@ -17,8 +17,9 @@
 	grid-gap: 24px;
 	padding: 16px;
 	grid-template-areas:
-	"hd hd hd hd hd hd hd hd hd hd hd hd"
 	"nav nav nav nav nav nav nav nav nav nav nav nav"
+	"hd hd hd hd hd hd hd hd hd hd hd hd"
+	"soc soc soc soc soc soc soc soc soc soc soc soc"
 	"main main main main main main main main main main main main"
 	"ft ft ft ft ft ft ft ft ft ft ft ft";
 }
@@ -31,7 +32,6 @@
 	}
 }
 
-
 /* Tablet styles */
 @media(min-width: 768px) and (max-width: 1023px) {
 	.grid-container-main {
@@ -39,13 +39,9 @@
 	}
 }
 
-
 /* Desktop styles */
 @media(min-width: 1024px) {
 }
-
-
-
 
 .header {
 	grid-area: hd;
