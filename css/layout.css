@@ -23,6 +23,30 @@
 	"ft ft ft ft ft ft ft ft ft ft ft ft";
 }
 
+
+/* Mobile styles */
+@media(max-width: 767px) {
+	.grid-container-main {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+
+
+/* Tablet styles */
+@media(min-width: 768px) and (max-width: 1023px) {
+	.grid-container-main {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+
+
+/* Desktop styles */
+@media(min-width: 1024px) {
+}
+
+
+
+
 .header {
 	grid-area: hd;
 	display: flex;
