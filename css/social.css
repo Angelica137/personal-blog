@@ -6,6 +6,12 @@
 	transition: fill 0.3 ease;
 }
 
+/* this does not trigger unless I have inline svgs, but
+that is agains the rules */
+.social-media:hover {
+	fill: #000;
+}
+
 .social-links {
   display: flex;
 	justify-content: flex-end;
