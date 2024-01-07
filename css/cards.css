@@ -76,10 +76,20 @@ figure {
   right: 16px;
 }
 
-
 .avatar {
 	width: 120px;
   height: 120px;
 	border-radius: 50%;
 	border: 2px solid black;
+}
+
+.avatar-small {
+	width: 32px;
+  height: 32px;
+	border-radius: 50%;
+	border: 2px solid black;
+}
+
+.article-info {
+	text-align: left;
 }
