@@ -17,6 +17,7 @@
         <li><img src="../assets/logos/FB.svg" class="social-media" /></li>
         <li><img src="../assets/logos/LinkedIn.svg" class="social-media" /></li>
       </ul>
+      <!--
       <div class="author card-avatar-container">
         <div class="card-avatar top-card">
           <h3>Angelica Beristain</h3>
@@ -36,7 +37,7 @@
           </p>
         </div>
         <div class="card-avatar bottom-card"></div>
-      </div>
+      </div>-->
       <div class="main-content card-avatar-container">
         <div class="card-avatar top-card">
           <h2 class="article-subheader">Subheader</h2>
@@ -73,7 +74,7 @@
                   alt="date"
                   class="info-date-icon"
                 />
-                <span>Date</span>
+                <span>23 December 2023</span>
               </div>
             </div>
           </div>
@@ -121,15 +122,22 @@
       </footer>
     </div>
     <script>
-      window.onload = function () {
+      function adjustCardHeight() {
         var topCard = document.querySelector(".card-avatar.top-card");
         var bottomCard = document.querySelector(".card-avatar.bottom-card");
 
         if (topCard && bottomCard) {
           var height = topCard.offsetHeight;
+          var adjustHeight = height;
           bottomCard.style.height = height + "px";
         }
-      };
+      }
+
+      // Adjust the height when the page loads
+      window.onload = adjustCardHeight;
+
+      // Adjust the height on window resize
+      window.onresize = adjustCardHeight;
     </script>
   </body>
 </html>
