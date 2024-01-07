@@ -8,12 +8,12 @@ want to push this */
 
 .popover-content {
 	position: absolute;
-	right: -200%;
+	right: -50%;
 	top: 50%;
 	transform: translateY(-50%);
 	white-space: nowrap;
 	z-index: 1;
-	
+
 	border: 1px solid #ddd;
 	background-color: white;
 	padding: 5px;
