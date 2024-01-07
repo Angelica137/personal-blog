@@ -118,9 +118,9 @@ span {
 	font-size: 16px;
 }
 
-
 /* these look repeatitive but when I delete them
-the styling reverts back to the mobile style
+the styling reverts back to the mobile style */
+
 /* small tablet */
 @media(min-width: 500px) and (max-width: 600px) {
 	.header .title-large {

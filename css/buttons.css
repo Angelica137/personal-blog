@@ -75,10 +75,9 @@
 	border: none;
 	border-radius: 100px;
 
-
 	display: flex;
 	justify-content: center;
-	align-items: center;;
+	align-items: center;
 }
 
 .text-button-left-icon img {
