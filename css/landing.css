@@ -13,7 +13,7 @@
 	"ft";
 }
 
-/* Tablet styles */
+/* Tablet styles 1 */
 @media(min-width: 500px) and (max-width: 600px) {
 	.grid-container {
 		grid-template-columns: repeat(4, 1fr);
