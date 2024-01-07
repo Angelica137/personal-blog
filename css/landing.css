@@ -13,7 +13,8 @@
 	"ft";
 }
 
-/* Tablet styles 1 */
+/* Small tablet styles, transitions look
+smoother with this added */
 @media(min-width: 500px) and (max-width: 600px) {
 	.grid-container {
 		grid-template-columns: repeat(4, 1fr);
